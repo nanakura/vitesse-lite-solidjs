@@ -2,6 +2,7 @@
 import { Router, useRoutes } from 'solid-app-router'
 import { Suspense } from 'solid-js'
 import routes from '~solid-pages'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Router>
         <Routes />
       </Router>
+      <Footer />
     </main>
   )
 }
