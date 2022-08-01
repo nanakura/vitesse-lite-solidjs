@@ -1,3 +1,5 @@
+/// <reference types="vitest" />
+
 import { defineConfig } from 'vite';
 import solidPlugin from 'vite-plugin-solid';
 import Pages from 'vite-plugin-pages'
@@ -25,5 +27,13 @@ export default defineConfig({
   ],
   build: {
     target: 'esnext',
+  }, 
+  test: {
+    environment: 'jsdom',
+    transformMode: {
+      web: [/.[jt]sx?/],
+    },
+    threads: false,
+    isolate: false,
   },
 });
