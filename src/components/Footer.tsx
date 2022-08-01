@@ -1,5 +1,3 @@
-import { useDark } from '~/primitives'
-
 export default function Footer() {
   const { isDark, toggleDark } = useDark()
   return (

@@ -1,15 +1,15 @@
 <h6 align='center'>
-<a href="https://vitesse-lite-react.netlify.app/">在线 Demo</a>
+<a href="https://vitesse-lite-solidjs.netlify.app/">在线 Demo</a>
 </h6>
 
 <h5 align='center'>
-<b>轻量版的 <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
+<b>Solidjs版的 <a href="https://github.com/nanakura/vitesse-lite-solidjs">Vitesse Lite</a></b>
 </h5>
 
 <br>
 
 <p align='center'>
-<a href="https://github.com/antfu/vitesse-lite/blob/main/README.md">English</a> | <b>简体中文</b>
+<a href="https://github.com/nanakura/vitesse-lite-solidjs/blob/main/README.md">English</a> | <b>简体中文</b>
 </p>
 
 <br>
@@ -26,7 +26,7 @@
 
 - ✅ 使用 [Vitest](http://vitest.dev/) 进行单元和组件测试
 
-- 🦾 TypeScript, 当然
+- 🦾 TypeScript, 必须滴
 
 - ☁️ 零配置部署 Netlify
 
@@ -57,7 +57,6 @@
 
 - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - 以文件系统为基础的路由
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 等，无需导入
-- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - 自动加载组件
 
 ## 现在可以试试!
 
