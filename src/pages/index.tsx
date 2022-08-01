@@ -1,6 +1,3 @@
-import { useNavigate } from "solid-app-router"
-import { createSignal } from "solid-js"
-
 export default function Index() {
   const [name, setName] = createSignal('')
 

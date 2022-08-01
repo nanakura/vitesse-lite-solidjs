@@ -1,5 +1,3 @@
-import { createEffect, createSignal } from "solid-js";
-
 export default function useDark() {
 	const { isDarkMode: isDark, toggle: toggleDark } = useDarkMode()
 	createEffect(() => {

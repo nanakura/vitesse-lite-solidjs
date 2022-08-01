@@ -1,5 +1,3 @@
-import { useNavigate, useParams } from "solid-app-router";
-
 export default function Hi() {
 	const navigate = useNavigate()
 	const params = useParams()

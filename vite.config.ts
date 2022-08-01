@@ -3,6 +3,7 @@ import solidPlugin from 'vite-plugin-solid';
 import Pages from 'vite-plugin-pages'
 import Unocss from 'unocss/vite'
 import path from 'path'
+import AutoImport from 'unplugin-auto-import/vite'
 
 export default defineConfig({
   resolve: {
@@ -14,6 +15,13 @@ export default defineConfig({
     solidPlugin(),
     Pages(),
     Unocss(),
+    AutoImport({
+      imports: [
+        "solid-js",
+        "solid-app-router",
+      ],
+      dts: true,
+    })
   ],
   server: {
     port: 3000,

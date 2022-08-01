@@ -1,5 +1,3 @@
-import { createSignal } from 'solid-js';
-
 export default function Counter({ initial }: { initial: number }) {
   const [count, setCount] = createSignal(initial ?? 0)
   function increment() {
