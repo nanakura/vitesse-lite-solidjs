@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.1.7",
+    "@types/node": "^18.6.3",
+    "@unocss/reset": "^0.45.1",
+    "typescript": "^4.7.4",
+    "unocss": "^0.45.1",
+    "vite": "^3.0.0",
+    "vite-plugin-pages": "^0.25.0",
+    "vite-plugin-solid": "^2.3.0"
+  },
+  "dependencies": {
+    "solid-app-router": "^0.4.2",
+    "solid-js": "^1.4.7"
+  }
+}
