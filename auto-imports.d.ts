@@ -57,6 +57,7 @@ declare global {
   const staticIntegration: typeof import('solid-app-router')['staticIntegration']
   const untrack: typeof import('solid-js')['untrack']
   const useContext: typeof import('solid-js')['useContext']
+  const useDark: typeof import('./src/primitives/useDark')['default']
   const useHref: typeof import('solid-app-router')['useHref']
   const useIsRouting: typeof import('solid-app-router')['useIsRouting']
   const useLocation: typeof import('solid-app-router')['useLocation']

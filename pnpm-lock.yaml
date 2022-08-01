@@ -3,6 +3,8 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.25.2
   '@iconify-json/carbon': ^1.1.7
+  '@solid-primitives/media': ^2.0.1
+  '@solid-primitives/storage': ^1.3.1
   '@types/node': ^18.6.3
   '@unocss/reset': ^0.45.1
   eslint: ^8.21.0
@@ -19,6 +21,8 @@ specifiers:
   vitest: ^0.20.2
 
 dependencies:
+  '@solid-primitives/media': 2.0.1_solid-js@1.4.7
+  '@solid-primitives/storage': 1.3.1_solid-js@1.4.7
   solid-app-router: 0.4.2_solid-js@1.4.7
   solid-js: 1.4.7
 
@@ -614,6 +618,51 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
+
+  /@solid-primitives/event-listener/2.2.1_solid-js@1.4.7:
+    resolution: {integrity: sha512-KPHi/kkMtWGbM7fVNez9ut5MXTT2lnvsGxnVFJXaqLpFiDliZzk3Z2rpi78B7BqEaqn7msAV/UdJ4omJPKSDJA==}
+    peerDependencies:
+      solid-js: ^1.3.1
+    dependencies:
+      '@solid-primitives/utils': 3.0.0_solid-js@1.4.7
+      solid-js: 1.4.7
+    dev: false
+
+  /@solid-primitives/media/2.0.1_solid-js@1.4.7:
+    resolution: {integrity: sha512-7tGJRu+NM551RTTOCWp5i2AaaZjp5+iI0SH8934V7HpBn6dHMcEDp8z9ajKMsfqYJfeVR3OD3eu4/XX89XxV2Q==}
+    peerDependencies:
+      solid-js: ^1.4.0
+    dependencies:
+      '@solid-primitives/event-listener': 2.2.1_solid-js@1.4.7
+      '@solid-primitives/rootless': 1.1.2_solid-js@1.4.7
+      '@solid-primitives/utils': 3.0.0_solid-js@1.4.7
+      solid-js: 1.4.7
+    dev: false
+
+  /@solid-primitives/rootless/1.1.2_solid-js@1.4.7:
+    resolution: {integrity: sha512-CSOM3+KUXiim/EqXTnfgQSZ0sAev9bd+6U8eME3amrYwZIxVF46tmYTAig/GZa3nLylmyokwqYStlcwCgSMQpQ==}
+    peerDependencies:
+      solid-js: ^1.3.1
+    dependencies:
+      '@solid-primitives/utils': 3.0.0_solid-js@1.4.7
+      solid-js: 1.4.7
+    dev: false
+
+  /@solid-primitives/storage/1.3.1_solid-js@1.4.7:
+    resolution: {integrity: sha512-3By9cxqCGGkXrw3gYj7h2c5SCWxiDIYc2C3O6GLVyzN4JCIKzcMlm3HLK0gKMUbR/MzAs265XyAc3rqsMq1ixw==}
+    peerDependencies:
+      solid-js: ^1.3.1
+    dependencies:
+      solid-js: 1.4.7
+    dev: false
+
+  /@solid-primitives/utils/3.0.0_solid-js@1.4.7:
+    resolution: {integrity: sha512-rYQcX6KByZKNunTcIknKUunHDzkI855jaiWIT7QutLqCpQDqWcfE4rzsU0QLEU3q0/PuazKhlIs0sYMQsvJ0dw==}
+    peerDependencies:
+      solid-js: ^1.4.1
+    dependencies:
+      solid-js: 1.4.7
+    dev: false
 
   /@testing-library/dom/7.31.2:
     resolution: {integrity: sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ==}

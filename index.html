@@ -11,19 +11,6 @@
   <body  class="font-sans dark:text-white dark:bg-hex-121212">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script>
-      (function() {
-        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-        const setting = localStorage.getItem('dark-mode')
-          ? localStorage.getItem('dark-mode') === 'true'
-            ? 'dark'
-            : 'light'
-          : 'auto'
-  
-        if (setting === 'dark' || (prefersDark && setting !== 'light'))
-          document.documentElement.classList.toggle('dark', true)
-      })()
-    </script>
     <script src="/src/index.tsx" type="module"></script>
   </body>
 </html>

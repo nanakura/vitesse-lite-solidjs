@@ -1,4 +1,4 @@
-import { useDark } from '~/hooks'
+import { useDark } from '~/primitives'
 
 export default function Footer() {
   const { isDark, toggleDark } = useDark()
@@ -11,7 +11,7 @@ export default function Footer() {
       <a
         class="icon-btn i-carbon-logo-github"
         rel="noreferrer"
-        href="https://github.com/antfu/vitesse-lite"
+        href="https://github.com/nanakura/vitesse-lite-solidjs"
         target="_blank"
         title="GitHub"
       />

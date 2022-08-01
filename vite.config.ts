@@ -23,6 +23,9 @@ export default defineConfig({
         "solid-app-router",
       ],
       dts: true,
+      dirs: [
+        'src/primitives',
+      ],
     })
   ],
   build: {
