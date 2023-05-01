@@ -26,7 +26,8 @@ export default defineConfig({
       dirs: [
         'src/primitives',
       ],
-    })
+    }),
+
   ],
   build: {
     target: 'esnext',
