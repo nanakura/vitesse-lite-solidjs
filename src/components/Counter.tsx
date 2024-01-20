@@ -10,7 +10,7 @@ export default function Counter({ initial }: { initial: number }) {
 
   return (
     <div>
-      {count}
+      {count()}
       <button class="inc" onClick={() => increment()}>
       +
       </button>

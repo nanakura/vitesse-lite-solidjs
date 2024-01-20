@@ -20,7 +20,7 @@ export default defineConfig({
     AutoImport({
       imports: [
         "solid-js",
-        "solid-app-router",
+        "@solidjs/router",
       ],
       dts: true,
       dirs: [
@@ -31,13 +31,10 @@ export default defineConfig({
   ],
   build: {
     target: 'esnext',
-  }, 
+  },
   test: {
-    environment: 'jsdom',
-    transformMode: {
-      web: [/.[jt]sx?/],
+    deps: {
+      inline: [/solid-js/, /@solidjs\/router/],
     },
-    threads: false,
-    isolate: false,
   },
 });
