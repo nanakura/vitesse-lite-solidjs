@@ -10,23 +10,24 @@
     "test": "vitest",
     "up": "taze major -I"
   },
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.25.2",
+    "@antfu/eslint-config": "^2.6.3",
     "@iconify-json/carbon": "^1.1.7",
     "@types/node": "^18.6.3",
-    "@unocss/reset": "^0.45.1",
+    "@unocss/reset": "^0.58.0",
     "eslint": "^8.21.0",
     "jsdom": "^20.0.0",
-    "solid-testing-library": "^0.3.0",
+    "solid-testing-library": "^0.5.1",
     "taze": "^0.8.4",
     "typescript": "^5.2.2",
-    "unocss": "^0.45.1",
+    "unocss": "^0.58.0",
     "unplugin-auto-import": "^0.10.3",
     "vite": "^5.0.8",
     "vite-plugin-pages": "^0.25.0",
     "vite-plugin-solid": "^2.8.0",
-    "vitest": "^0.20.2"
+    "vitest": "^1.2.1"
   },
   "dependencies": {
     "@solid-primitives/media": "^2.0.1",

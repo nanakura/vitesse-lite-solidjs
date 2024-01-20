@@ -6,6 +6,7 @@
     "baseUrl": ".",
     "composite": true,
     "moduleResolution": "bundler",
+    "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "jsx": "preserve",
